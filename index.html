@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+    <script src="graph.js"></script>
+    <style>
+
+    .link {
+        stroke: #aaa;
+    }
+
+    .node text {
+        cursor:pointer;
+        color:black;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .node circle{
+        stroke:#fff;
+        stroke-width:3px;
+        fill:#555;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td width="75%">
+                <div class='chart' id='ex1' style="height:90vh; width:75vw"></div>
+            </td>
+            <td width="25%">
+                <div id=select_domain>
+                    <h4>Domain</h4>
+                    <input type="radio" name="domain" value="politics" checked>Politics
+                    <br />
+                    <input type="radio" name="domain" value="tv_actors">TV Actors
+                </div>
+                <br />
+                <h4>Person</h4>
+                <div id=button_div style="overflow:scroll; height:80vh"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
