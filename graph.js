@@ -31,7 +31,7 @@ $(document).ready(function() {
     
     function reset_name_list(){
         var json_file = "graphFile.0.833.json";
-        var path = "data/"+$('input[name=domain]:checked').val()+"/";
+        var path = "results/"+$('input[name=domain]:checked').val()+"/";
         var keep = [];
         $("input:checkbox:checked").each(function(index){
             keep.push(this.value);
@@ -70,7 +70,7 @@ $(document).ready(function() {
     function filter(_json){
         var json = jQuery.extend(true, {}, _json);
         var json_file = "graphFile.0.833.json";
-        var path = "data/"+$('input[name=domain]:checked').val()+"/";
+        var path = "results/"+$('input[name=domain]:checked').val()+"/";
 
         var jsonEdit = {
             "nodes": [],
