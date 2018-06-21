@@ -145,7 +145,7 @@ $(document).ready(function() {
             .text(function(d) { return d.name })
             .style("font-family", "Helvetica, sans-serif")
             .style("fill", "#000000")
-            .style("font-size", 180);
+            .style("font-size", "large");
 
         force.on("tick", function() {
             link.attr("x1", function(d) { return d.source.x; })
