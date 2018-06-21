@@ -1,9 +1,7 @@
 # PIIA - Person Identification in the Internet Archive
 This is the official GitHub page for the paper:
 
-> Eric Müller-Budack, Kader Pustu-Iren, Sebastian Diering and Ralph Ewerth:
-"Finding Person Relations in Image Data of News Collections in the Internet Archive."
-Submitted and Accepted in: *22nd International Conference on Theory and Practice of Digital Libraries (TPDL).* 2018.
+> Eric Müller-Budack, Kader Pustu-Iren, Sebastian Diering and Ralph Ewerth: "Finding Person Relations in Image Data of News Collections in the Internet Archive." Forthcoming: *22nd International Conference on Theory and Practice of Digital Libraries (TPDL).* Porto, 2018.
 
 # Person Dictionary
 
